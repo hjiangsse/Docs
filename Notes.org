@@ -1,4 +1,4 @@
-* Outline and Writing
+* Outline and Writing                                                :hjiang:
 ** insert heading
 M-Enter will insert a heading in current position
         and the newly heading is same with privious heading
@@ -29,6 +29,16 @@ M-Shift-Right will demote an entire subtree
    - [ ] this is second checkbox
    - [ ] this is third checkbox
 start the line with - [ ], toggle the check box using C-c C-c
-* hyper links
+* hyper links                                            :hyper_links_in_org:
 ** simple urls
 http://www.baidu.com
+** simple file path
+file:/etc/file.pdf
+* plain-text tables
+| name   | sex | age | number |
+|--------+-----+-----+--------|
+| hjiang | man | 23  | 234    |
+|        |     |     |        |
+|        |     |     |        |
+|        |     |     |        |
+* tags                                                         :org_set_tags:
