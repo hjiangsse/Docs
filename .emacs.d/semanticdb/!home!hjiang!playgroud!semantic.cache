@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "test.c"
+      :pointmax 700
+      :fsize 39
+      :lastmodtime '(23343 48174 522856 289000)
+      :unmatched-syntax '((symbol 1 . 2) (punctuation 36 . 37) (symbol 35 . 36) (punctuation 34 . 35) (symbol 29 . 34) (punctuation 28 . 29) (symbol 20 . 27) (punctuation 19 . 20) (punctuation 36 . 37) (symbol 35 . 36) (punctuation 34 . 35) (symbol 29 . 34) (punctuation 28 . 29) (symbol 20 . 27) (punctuation 19 . 20)))
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "test.h"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(23352 31406 895099 332000)
+      :unmatched-syntax nil))
+  :file "!home!hjiang!playgroud!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

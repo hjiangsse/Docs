@@ -1,0 +1,1140 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_CORE_H__" variable (:constant-flag t) nil [73 89])
+            ("ctl_table_header" type
+               (:prototype t
+                :type "struct")
+                nil [91 115])
+            ("prot_inuse" type
+               (:prototype t
+                :type "struct")
+                nil [116 134])
+            ("netns_core" type
+               (:members 
+                  ( ("sysctl_hdr" variable
+                       (:pointer 1
+                        :type ("ctl_table_header" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [177 213])
+                    ("sysctl_somaxconn" variable (:type "int") (reparse-symbol classsubparts) [216 237]))                  
+                :type "struct")
+                nil [136 338]))          
+      :file "core.h"
+      :pointmax 347
+      :fsize 346
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_CORE_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_MIB_H__" variable (:constant-flag t) nil [72 87])
+            ("net/snmp.h" include (:system-flag t) nil [89 110])
+            ("netns_mib" type
+               (:members 
+                  ( ("DEFINE_SNMP_STAT" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("tcp_mib" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol arg-sub-list) [149 164])
+                            ("" variable (:type ("tcp_statistics" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [165 180]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [132 181])
+                    ("DEFINE_SNMP_STAT" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("ipstats_mib" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol arg-sub-list) [200 219])
+                            ("" variable (:type ("ip_statistics" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [220 234]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [183 235])
+                    ("DEFINE_SNMP_STAT" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("linux_mib" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol arg-sub-list) [254 271])
+                            ("" variable (:type ("net_statistics" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [272 287]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [237 288])
+                    ("DEFINE_SNMP_STAT" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("udp_mib" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol arg-sub-list) [307 322])
+                            ("" variable (:type ("udp_statistics" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [323 338]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [290 339])
+                    ("DEFINE_SNMP_STAT" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("udp_mib" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol arg-sub-list) [358 373])
+                            ("" variable (:type ("udplite_statistics" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [374 393]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [341 394])
+                    ("DEFINE_SNMP_STAT" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("icmp_mib" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol arg-sub-list) [413 429])
+                            ("" variable (:type ("icmp_statistics" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [430 446]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [396 447])
+                    ("DEFINE_SNMP_STAT_ATOMIC" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("icmpmsg_mib" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol arg-sub-list) [473 492])
+                            ("" variable (:type ("icmpmsg_statistics" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [493 512]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [449 513]))                  
+                :type "struct")
+                nil [112 978]))          
+      :file "mib.h"
+      :pointmax 987
+      :fsize 986
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_MIB_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_UNIX_H__" variable (:constant-flag t) nil [106 122])
+            ("ctl_table_header" type
+               (:prototype t
+                :type "struct")
+                nil [124 148])
+            ("netns_unix" type
+               (:members 
+                  ( ("sysctl_max_dgram_qlen" variable (:type "int") (reparse-symbol classsubparts) [170 198])
+                    ("ctl" variable
+                       (:pointer 1
+                        :type ("ctl_table_header" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [200 229]))                  
+                :type "struct")
+                nil [149 232]))          
+      :file "unix.h"
+      :pointmax 264
+      :fsize 263
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_UNIX_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_PACKET_H__" variable (:constant-flag t) nil [110 128])
+            ("linux/rculist.h" include (:system-flag t) nil [130 156])
+            ("linux/mutex.h" include (:system-flag t) nil [157 181])
+            ("netns_packet" type
+               (:members 
+                  ( ("sklist_lock" variable (:type ("mutex" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [206 232])
+                    ("sklist" variable (:type ("hlist_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [234 259]))                  
+                :type "struct")
+                nil [183 262]))          
+      :file "packet.h"
+      :pointmax 296
+      :fsize 295
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_PACKET_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_IPV4_H__" variable (:constant-flag t) nil [107 123])
+            ("linux/uidgid.h" include (:system-flag t) nil [125 150])
+            ("net/inet_frag.h" include (:system-flag t) nil [151 177])
+            ("linux/rcupdate.h" include (:system-flag t) nil [178 205])
+            ("tcpm_hash_bucket" type
+               (:prototype t
+                :type "struct")
+                nil [207 231])
+            ("ctl_table_header" type
+               (:prototype t
+                :type "struct")
+                nil [232 256])
+            ("ipv4_devconf" type
+               (:prototype t
+                :type "struct")
+                nil [257 277])
+            ("fib_rules_ops" type
+               (:prototype t
+                :type "struct")
+                nil [278 299])
+            ("hlist_head" type
+               (:prototype t
+                :type "struct")
+                nil [300 318])
+            ("fib_table" type
+               (:prototype t
+                :type "struct")
+                nil [319 336])
+            ("sock" type
+               (:prototype t
+                :type "struct")
+                nil [337 349])
+            ("local_ports" type
+               (:members 
+                  ( ("lock" variable (:type ("seqlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [372 387])
+                    ("range" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [389 403])
+                    ("warned" variable (:type "bool") (reparse-symbol classsubparts) [405 418]))                  
+                :type "struct")
+                nil [350 421])
+            ("ping_group_range" type
+               (:members 
+                  ( ("lock" variable (:type ("seqlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [450 465])
+                    ("range" variable
+                       (:dereference 1
+                        :type ("kgid_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [467 484]))                  
+                :type "struct")
+                nil [423 487])
+            ("inet_hashinfo" type
+               (:prototype t
+                :type "struct")
+                nil [489 510])
+            ("inet_timewait_death_row" type
+               (:members 
+                  ( ("tw_count" variable (:type ("atomic_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [546 565])
+                    ("____cacheline_aligned_in_smp" variable (:type ("hashinfo" type (:type "class") nil nil)) (reparse-symbol classsubparts) [591 629])
+                    ("sysctl_max_tw_buckets" variable (:type "int") (reparse-symbol classsubparts) [631 659]))                  
+                :type "struct")
+                nil [512 662])
+            ("tcp_fastopen_context" type
+               (:prototype t
+                :type "struct")
+                nil [664 692])
+            ("netns_ipv4" type
+               (:members 
+                  ( ("devconf_all" variable
+                       (:pointer 1
+                        :type ("ipv4_devconf" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [926 959])
+                    ("devconf_dflt" variable
+                       (:pointer 1
+                        :type ("ipv4_devconf" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [961 995])
+                    ("fib_has_custom_local_routes" variable (:type "bool") (reparse-symbol classsubparts) [1174 1209])
+                    ("fib_table_hash" variable
+                       (:pointer 1
+                        :type ("hlist_head" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1280 1314])
+                    ("fib_offload_disabled" variable (:type "bool") (reparse-symbol classsubparts) [1316 1344])
+                    ("fibnl" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1346 1366])
+                    ("icmp_sk" variable
+                       (:pointer 1
+                        :type ("__percpu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1384 1402])
+                    ("mc_autojoin_sk" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1404 1433])
+                    ("peers" variable
+                       (:pointer 1
+                        :type ("inet_peer_base" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1436 1465])
+                    ("tcp_sk" variable
+                       (:pointer 1
+                        :type ("__percpu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1482 1499])
+                    ("frags" variable (:type ("netns_frags" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1501 1526])
+                    ("sysctl_icmp_echo_ignore_all" variable (:type "int") (reparse-symbol classsubparts) [1795 1827])
+                    ("sysctl_icmp_echo_ignore_broadcasts" variable (:type "int") (reparse-symbol classsubparts) [1829 1868])
+                    ("sysctl_icmp_ignore_bogus_error_responses" variable (:type "int") (reparse-symbol classsubparts) [1870 1915])
+                    ("sysctl_icmp_ratelimit" variable (:type "int") (reparse-symbol classsubparts) [1917 1943])
+                    ("sysctl_icmp_ratemask" variable (:type "int") (reparse-symbol classsubparts) [1945 1970])
+                    ("sysctl_icmp_errors_use_inbound_ifaddr" variable (:type "int") (reparse-symbol classsubparts) [1972 2014])
+                    ("ip_local_ports" variable (:type ("local_ports" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [2017 2051])
+                    ("sysctl_tcp_ecn" variable (:type "int") (reparse-symbol classsubparts) [2054 2073])
+                    ("sysctl_tcp_ecn_fallback" variable (:type "int") (reparse-symbol classsubparts) [2075 2103])
+                    ("sysctl_ip_default_ttl" variable (:type "int") (reparse-symbol classsubparts) [2106 2132])
+                    ("sysctl_ip_no_pmtu_disc" variable (:type "int") (reparse-symbol classsubparts) [2134 2161])
+                    ("sysctl_ip_fwd_use_pmtu" variable (:type "int") (reparse-symbol classsubparts) [2163 2190])
+                    ("sysctl_ip_nonlocal_bind" variable (:type "int") (reparse-symbol classsubparts) [2192 2220])
+                    ("sysctl_ip_dynaddr" variable (:type "int") (reparse-symbol classsubparts) [2291 2313])
+                    ("sysctl_ip_early_demux" variable (:type "int") (reparse-symbol classsubparts) [2315 2341])
+                    ("sysctl_tcp_early_demux" variable (:type "int") (reparse-symbol classsubparts) [2343 2370])
+                    ("sysctl_udp_early_demux" variable (:type "int") (reparse-symbol classsubparts) [2372 2399])
+                    ("sysctl_fwmark_reflect" variable (:type "int") (reparse-symbol classsubparts) [2402 2428])
+                    ("sysctl_tcp_fwmark_accept" variable (:type "int") (reparse-symbol classsubparts) [2430 2459])
+                    ("sysctl_tcp_mtu_probing" variable (:type "int") (reparse-symbol classsubparts) [2531 2558])
+                    ("sysctl_tcp_base_mss" variable (:type "int") (reparse-symbol classsubparts) [2560 2584])
+                    ("sysctl_tcp_probe_threshold" variable (:type "int") (reparse-symbol classsubparts) [2586 2617])
+                    ("sysctl_tcp_probe_interval" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2619 2649])
+                    ("sysctl_tcp_keepalive_time" variable (:type "int") (reparse-symbol classsubparts) [2652 2682])
+                    ("sysctl_tcp_keepalive_probes" variable (:type "int") (reparse-symbol classsubparts) [2684 2716])
+                    ("sysctl_tcp_keepalive_intvl" variable (:type "int") (reparse-symbol classsubparts) [2718 2749])
+                    ("sysctl_tcp_syn_retries" variable (:type "int") (reparse-symbol classsubparts) [2752 2779])
+                    ("sysctl_tcp_synack_retries" variable (:type "int") (reparse-symbol classsubparts) [2781 2811])
+                    ("sysctl_tcp_syncookies" variable (:type "int") (reparse-symbol classsubparts) [2813 2839])
+                    ("sysctl_tcp_reordering" variable (:type "int") (reparse-symbol classsubparts) [2841 2867])
+                    ("sysctl_tcp_retries1" variable (:type "int") (reparse-symbol classsubparts) [2869 2893])
+                    ("sysctl_tcp_retries2" variable (:type "int") (reparse-symbol classsubparts) [2895 2919])
+                    ("sysctl_tcp_orphan_retries" variable (:type "int") (reparse-symbol classsubparts) [2921 2951])
+                    ("sysctl_tcp_fin_timeout" variable (:type "int") (reparse-symbol classsubparts) [2953 2980])
+                    ("sysctl_tcp_notsent_lowat" variable (:type "unsigned int") (reparse-symbol classsubparts) [2982 3020])
+                    ("sysctl_tcp_tw_reuse" variable (:type "int") (reparse-symbol classsubparts) [3022 3046])
+                    ("sysctl_tcp_sack" variable (:type "int") (reparse-symbol classsubparts) [3048 3068])
+                    ("sysctl_tcp_window_scaling" variable (:type "int") (reparse-symbol classsubparts) [3070 3100])
+                    ("sysctl_tcp_timestamps" variable (:type "int") (reparse-symbol classsubparts) [3102 3128])
+                    ("sysctl_tcp_early_retrans" variable (:type "int") (reparse-symbol classsubparts) [3130 3159])
+                    ("sysctl_tcp_recovery" variable (:type "int") (reparse-symbol classsubparts) [3161 3185])
+                    ("sysctl_tcp_thin_linear_timeouts" variable (:type "int") (reparse-symbol classsubparts) [3187 3223])
+                    ("sysctl_tcp_slow_start_after_idle" variable (:type "int") (reparse-symbol classsubparts) [3225 3262])
+                    ("sysctl_tcp_retrans_collapse" variable (:type "int") (reparse-symbol classsubparts) [3264 3296])
+                    ("sysctl_tcp_stdurg" variable (:type "int") (reparse-symbol classsubparts) [3298 3320])
+                    ("sysctl_tcp_rfc1337" variable (:type "int") (reparse-symbol classsubparts) [3322 3345])
+                    ("sysctl_tcp_abort_on_overflow" variable (:type "int") (reparse-symbol classsubparts) [3347 3380])
+                    ("sysctl_tcp_fack" variable (:type "int") (reparse-symbol classsubparts) [3382 3402])
+                    ("sysctl_tcp_max_reordering" variable (:type "int") (reparse-symbol classsubparts) [3404 3434])
+                    ("sysctl_tcp_dsack" variable (:type "int") (reparse-symbol classsubparts) [3436 3457])
+                    ("sysctl_tcp_app_win" variable (:type "int") (reparse-symbol classsubparts) [3459 3482])
+                    ("sysctl_tcp_adv_win_scale" variable (:type "int") (reparse-symbol classsubparts) [3484 3513])
+                    ("sysctl_tcp_frto" variable (:type "int") (reparse-symbol classsubparts) [3515 3535])
+                    ("sysctl_tcp_nometrics_save" variable (:type "int") (reparse-symbol classsubparts) [3537 3567])
+                    ("sysctl_tcp_moderate_rcvbuf" variable (:type "int") (reparse-symbol classsubparts) [3569 3600])
+                    ("sysctl_tcp_tso_win_divisor" variable (:type "int") (reparse-symbol classsubparts) [3602 3633])
+                    ("sysctl_tcp_workaround_signed_windows" variable (:type "int") (reparse-symbol classsubparts) [3635 3676])
+                    ("sysctl_tcp_limit_output_bytes" variable (:type "int") (reparse-symbol classsubparts) [3678 3712])
+                    ("sysctl_tcp_challenge_ack_limit" variable (:type "int") (reparse-symbol classsubparts) [3714 3749])
+                    ("sysctl_tcp_min_tso_segs" variable (:type "int") (reparse-symbol classsubparts) [3751 3779])
+                    ("sysctl_tcp_min_rtt_wlen" variable (:type "int") (reparse-symbol classsubparts) [3781 3809])
+                    ("sysctl_tcp_autocorking" variable (:type "int") (reparse-symbol classsubparts) [3811 3838])
+                    ("sysctl_tcp_invalid_ratelimit" variable (:type "int") (reparse-symbol classsubparts) [3840 3873])
+                    ("sysctl_tcp_pacing_ss_ratio" variable (:type "int") (reparse-symbol classsubparts) [3875 3906])
+                    ("sysctl_tcp_pacing_ca_ratio" variable (:type "int") (reparse-symbol classsubparts) [3908 3939])
+                    ("sysctl_tcp_wmem" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [3941 3964])
+                    ("sysctl_tcp_rmem" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [3966 3989])
+                    ("tcp_death_row" variable (:type ("inet_timewait_death_row" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [3991 4036])
+                    ("sysctl_max_syn_backlog" variable (:type "int") (reparse-symbol classsubparts) [4038 4065])
+                    ("sysctl_tcp_fastopen" variable (:type "int") (reparse-symbol classsubparts) [4067 4091])
+                    ("tcp_congestion_control" variable
+                       (:pointer 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4125 4156])
+                    ("tcp_fastopen_ctx" variable
+                       (:pointer 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4186 4210])
+                    ("tcp_fastopen_ctx_lock" variable (:type ("spinlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4212 4245])
+                    ("sysctl_tcp_fastopen_blackhole_timeout" variable (:type "unsigned int") (reparse-symbol classsubparts) [4247 4298])
+                    ("tfo_active_disable_times" variable (:type ("atomic_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4300 4334])
+                    ("tfo_active_disable_stamp" variable (:type "unsigned long") (reparse-symbol classsubparts) [4336 4375])
+                    ("sysctl_igmp_max_memberships" variable (:type "int") (reparse-symbol classsubparts) [4449 4481])
+                    ("sysctl_igmp_max_msf" variable (:type "int") (reparse-symbol classsubparts) [4483 4507])
+                    ("sysctl_igmp_llm_reports" variable (:type "int") (reparse-symbol classsubparts) [4509 4537])
+                    ("sysctl_igmp_qrv" variable (:type "int") (reparse-symbol classsubparts) [4539 4559])
+                    ("ping_group_range" variable (:type ("ping_group_range" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [4562 4603])
+                    ("dev_addr_genid" variable (:type ("atomic_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4606 4630])
+                    ("notifier_ops" variable
+                       (:pointer 1
+                        :type ("fib_notifier_ops" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [5025 5063])
+                    ("fib_seq" variable (:type "unsigned int") (reparse-symbol classsubparts) [5065 5086])
+                    ("ipmr_notifier_ops" variable
+                       (:pointer 1
+                        :type ("fib_notifier_ops" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [5119 5162])
+                    ("ipmr_seq" variable (:type "unsigned int") (reparse-symbol classsubparts) [5164 5186])
+                    ("rt_genid" variable (:type ("atomic_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5219 5237]))                  
+                :type "struct")
+                nil [694 5240]))          
+      :file "ipv4.h"
+      :pointmax 5248
+      :fsize 5247
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax '((symbol 4165 . 4185) (STRUCT 4158 . 4164) (symbol 4106 . 4124) (STRUCT 4099 . 4105) (CONST 4093 . 4098) (punctuation 1480 . 1481) (symbol 1474 . 1478) (STRUCT 1467 . 1473) (punctuation 1382 . 1383) (symbol 1376 . 1380) (STRUCT 1369 . 1375) (punctuation 590 . 591) (symbol 575 . 588) (STRUCT 568 . 574))
+      :lexical-table 
+        '(("__NETNS_IPV4_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("net/inet_frag.h" include (:system-flag t) nil [74 100])
+            ("__NETNS_IPV6_H__" variable (:constant-flag t) nil [135 151])
+            ("net/dst_ops.h" include (:system-flag t) nil [152 176])
+            ("ctl_table_header" type
+               (:prototype t
+                :type "struct")
+                nil [178 202])
+            ("netns_sysctl_ipv6" type
+               (:members 
+                  ( ("bindv6only" variable (:type "int") (reparse-symbol classsubparts) [438 453])
+                    ("flush_delay" variable (:type "int") (reparse-symbol classsubparts) [455 471])
+                    ("ip6_rt_max_size" variable (:type "int") (reparse-symbol classsubparts) [473 493])
+                    ("ip6_rt_gc_min_interval" variable (:type "int") (reparse-symbol classsubparts) [495 522])
+                    ("ip6_rt_gc_timeout" variable (:type "int") (reparse-symbol classsubparts) [524 546])
+                    ("ip6_rt_gc_interval" variable (:type "int") (reparse-symbol classsubparts) [548 571])
+                    ("ip6_rt_gc_elasticity" variable (:type "int") (reparse-symbol classsubparts) [573 598])
+                    ("ip6_rt_mtu_expires" variable (:type "int") (reparse-symbol classsubparts) [600 623])
+                    ("ip6_rt_min_advmss" variable (:type "int") (reparse-symbol classsubparts) [625 647])
+                    ("flowlabel_consistency" variable (:type "int") (reparse-symbol classsubparts) [649 675])
+                    ("auto_flowlabels" variable (:type "int") (reparse-symbol classsubparts) [677 697])
+                    ("icmpv6_time" variable (:type "int") (reparse-symbol classsubparts) [699 715])
+                    ("anycast_src_echo_reply" variable (:type "int") (reparse-symbol classsubparts) [717 744])
+                    ("ip_nonlocal_bind" variable (:type "int") (reparse-symbol classsubparts) [746 767])
+                    ("fwmark_reflect" variable (:type "int") (reparse-symbol classsubparts) [769 788])
+                    ("idgen_retries" variable (:type "int") (reparse-symbol classsubparts) [790 808])
+                    ("idgen_delay" variable (:type "int") (reparse-symbol classsubparts) [810 826])
+                    ("flowlabel_state_ranges" variable (:type "int") (reparse-symbol classsubparts) [828 855])
+                    ("flowlabel_reflect" variable (:type "int") (reparse-symbol classsubparts) [857 879])
+                    ("max_dst_opts_cnt" variable (:type "int") (reparse-symbol classsubparts) [881 902])
+                    ("max_hbh_opts_cnt" variable (:type "int") (reparse-symbol classsubparts) [904 925])
+                    ("max_dst_opts_len" variable (:type "int") (reparse-symbol classsubparts) [927 948])
+                    ("max_hbh_opts_len" variable (:type "int") (reparse-symbol classsubparts) [950 971]))                  
+                :type "struct")
+                nil [204 974])
+            ("netns_ipv6" type
+               (:members 
+                  ( ("sysctl" variable (:type ("netns_sysctl_ipv6" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [997 1029])
+                    ("devconf_all" variable
+                       (:pointer 1
+                        :type ("ipv6_devconf" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1031 1064])
+                    ("devconf_dflt" variable
+                       (:pointer 1
+                        :type ("ipv6_devconf" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1066 1100])
+                    ("peers" variable
+                       (:pointer 1
+                        :type ("inet_peer_base" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1102 1131])
+                    ("frags" variable (:type ("netns_frags" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1133 1158])
+                    ("ip6_null_entry" variable
+                       (:pointer 1
+                        :type ("rt6_info" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1397 1437])
+                    ("rt6_stats" variable
+                       (:pointer 1
+                        :type ("rt6_statistics" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1439 1474])
+                    ("ip6_fib_timer" variable (:type ("timer_list" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1476 1514])
+                    ("fib_table_hash" variable
+                       (:pointer 1
+                        :type ("hlist_head" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1516 1556])
+                    ("fib6_main_tbl" variable
+                       (:pointer 1
+                        :type ("fib6_table" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1558 1597])
+                    ("fib6_walkers" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1599 1629])
+                    ("ip6_dst_ops" variable (:type ("dst_ops" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1631 1659])
+                    ("fib6_walker_lock" variable (:type ("rwlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1661 1688])
+                    ("fib6_gc_lock" variable (:type ("spinlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1690 1715])
+                    ("ip6_rt_gc_expire" variable (:type "unsigned int") (reparse-symbol classsubparts) [1717 1749])
+                    ("ip6_rt_last_gc" variable (:type "unsigned long") (reparse-symbol classsubparts) [1751 1782])
+                    ("icmp_sk" variable
+                       (:pointer 2
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [2034 2057])
+                    ("ndisc_sk" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [2059 2093])
+                    ("tcp_sk" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [2095 2127])
+                    ("igmp_sk" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [2129 2162])
+                    ("mc_autojoin_sk" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [2164 2193])
+                    ("dev_addr_genid" variable (:type ("atomic_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2377 2402])
+                    ("fib6_sernum" variable (:type ("atomic_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2404 2426])
+                    ("seg6_data" variable
+                       (:pointer 1
+                        :type ("seg6_pernet_data" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [2428 2463])
+                    ("notifier_ops" variable
+                       (:pointer 1
+                        :type ("fib_notifier_ops" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [2465 2503])
+                    ("ip6addrlbl_table" variable (:type ("" type
+                         (:members 
+                            ( ("head" variable (:type ("hlist_head" type
+                                   (:prototype t
+                                    :type "struct")
+                                    nil nil)) (reparse-symbol classsubparts) [2516 2539])
+                              ("lock" variable (:type ("spinlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2542 2558])
+                              ("seq" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2561 2570]))                            
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [2505 2591]))                  
+                :type "struct")
+                nil [976 2594]))          
+      :file "ipv6.h"
+      :pointmax 2736
+      :fsize 2735
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_IPV6_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("net/inet_frag.h" include (:system-flag t) nil [88 114])
+            ("__NETNS_IEEE802154_6LOWPAN_H__" variable (:constant-flag t) nil [163 193])
+            ("netns_sysctl_lowpan" type (:type "struct") nil [195 291])
+            ("netns_ieee802154_lowpan" type
+               (:members 
+                  ( ("sysctl" variable (:type ("netns_sysctl_lowpan" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [327 361])
+                    ("frags" variable (:type ("netns_frags" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [363 388]))                  
+                :type "struct")
+                nil [293 391]))          
+      :file "ieee802154_6lowpan.h"
+      :pointmax 400
+      :fsize 399
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_IEEE802154_6LOWPAN_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_SCTP_H__" variable (:constant-flag t) nil [73 89])
+            ("sock" type
+               (:prototype t
+                :type "struct")
+                nil [91 103])
+            ("proc_dir_entry" type
+               (:prototype t
+                :type "struct")
+                nil [104 126])
+            ("sctp_mib" type
+               (:prototype t
+                :type "struct")
+                nil [127 143])
+            ("ctl_table_header" type
+               (:prototype t
+                :type "struct")
+                nil [144 168])
+            ("netns_sctp" type
+               (:members 
+                  ( ("DEFINE_SNMP_STAT" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("sctp_mib" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol arg-sub-list) [208 224])
+                            ("" variable (:type ("sctp_statistics" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [225 241]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [191 242])
+                    ("ctl_sock" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [575 597])
+                    ("local_addr_list" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [807 840])
+                    ("addr_waitq" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [842 870])
+                    ("addr_wq_timer" variable (:type ("timer_list" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [872 904])
+                    ("auto_asconf_splist" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [906 942])
+                    ("addr_wq_lock" variable (:type ("spinlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1009 1033])
+                    ("local_addr_lock" variable (:type ("spinlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1090 1117])
+                    ("rto_initial" variable (:type "unsigned int") (reparse-symbol classsubparts) [1469 1494])
+                    ("rto_min" variable (:type "unsigned int") (reparse-symbol classsubparts) [1496 1517])
+                    ("rto_max" variable (:type "unsigned int") (reparse-symbol classsubparts) [1519 1540])
+                    ("rto_alpha" variable (:type "int") (reparse-symbol classsubparts) [1663 1677])
+                    ("rto_beta" variable (:type "int") (reparse-symbol classsubparts) [1679 1692])
+                    ("max_burst" variable (:type "int") (reparse-symbol classsubparts) [1721 1735])
+                    ("cookie_preserve_enable" variable (:type "int") (reparse-symbol classsubparts) [1797 1824])
+                    ("sctp_hmac_alg" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [1865 1885])
+                    ("valid_cookie_life" variable (:type "unsigned int") (reparse-symbol classsubparts) [1932 1963])
+                    ("sack_timeout" variable (:type "unsigned int") (reparse-symbol classsubparts) [2008 2034])
+                    ("hb_interval" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2100])
+                    ("max_retrans_association" variable (:type "int") (reparse-symbol classsubparts) [2259 2287])
+                    ("max_retrans_path" variable (:type "int") (reparse-symbol classsubparts) [2289 2310])
+                    ("max_retrans_init" variable (:type "int") (reparse-symbol classsubparts) [2312 2333])
+                    ("pf_retrans" variable (:type "int") (reparse-symbol classsubparts) [2472 2487])
+                    ("pf_enable" variable (:type "int") (reparse-symbol classsubparts) [2629 2643])
+                    ("sndbuf_policy" variable (:type "int") (reparse-symbol classsubparts) [2833 2851])
+                    ("rcvbuf_policy" variable (:type "int") (reparse-symbol classsubparts) [3041 3059])
+                    ("default_auto_asconf" variable (:type "int") (reparse-symbol classsubparts) [3062 3086])
+                    ("addip_enable" variable (:type "int") (reparse-symbol classsubparts) [3134 3151])
+                    ("addip_noauth" variable (:type "int") (reparse-symbol classsubparts) [3153 3170])
+                    ("prsctp_enable" variable (:type "int") (reparse-symbol classsubparts) [3220 3238])
+                    ("reconf_enable" variable (:type "int") (reparse-symbol classsubparts) [3290 3308])
+                    ("auth_enable" variable (:type "int") (reparse-symbol classsubparts) [3359 3375])
+                    ("intl_enable" variable (:type "int") (reparse-symbol classsubparts) [3434 3450])
+                    ("scope_policy" variable (:type "int") (reparse-symbol classsubparts) [3700 3717])
+                    ("rwnd_upd_shift" variable (:type "int") (reparse-symbol classsubparts) [3861 3880])
+                    ("max_autoclose" variable (:type "unsigned long") (reparse-symbol classsubparts) [3935 3963]))                  
+                :type "struct")
+                nil [170 3966]))          
+      :file "sctp.h"
+      :pointmax 3998
+      :fsize 3997
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_SCTP_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_DCCP_H__" variable (:constant-flag t) nil [73 89])
+            ("sock" type
+               (:prototype t
+                :type "struct")
+                nil [91 103])
+            ("netns_dccp" type
+               (:members 
+                  ( ("v4_ctl_sk" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [126 149])
+                    ("v6_ctl_sk" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [151 174]))                  
+                :type "struct")
+                nil [105 177]))          
+      :file "dccp.h"
+      :pointmax 186
+      :fsize 185
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_DCCP_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_NETFILTER_H" variable (:constant-flag t) nil [76 95])
+            ("linux/netfilter_defs.h" include (:system-flag t) nil [97 130])
+            ("proc_dir_entry" type
+               (:prototype t
+                :type "struct")
+                nil [132 154])
+            ("nf_logger" type
+               (:prototype t
+                :type "struct")
+                nil [155 172])
+            ("nf_queue_handler" type
+               (:prototype t
+                :type "struct")
+                nil [173 197])
+            ("netns_nf" type
+               (:members 
+                  ( ("queue_handler" variable
+                       (:pointer 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [322 343])
+                    ("nf_loggers" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [368 404])
+                    ("hooks_ipv4" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [502 538])
+                    ("hooks_ipv6" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [563 599]))                  
+                :type "struct")
+                nil [199 1041]))          
+      :file "netfilter.h"
+      :pointmax 1049
+      :fsize 1048
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax '((symbol 547 . 562) (STRUCT 540 . 546) (symbol 486 . 501) (STRUCT 479 . 485) (symbol 358 . 367) (STRUCT 351 . 357) (CONST 345 . 350) (symbol 305 . 321) (STRUCT 298 . 304) (CONST 292 . 297))
+      :lexical-table 
+        '(("__NETNS_NETFILTER_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_X_TABLES_H" variable (:constant-flag t) nil [75 93])
+            ("linux/list.h" include (:system-flag t) nil [95 118])
+            ("linux/netfilter_defs.h" include (:system-flag t) nil [119 152])
+            ("ebt_table" type
+               (:prototype t
+                :type "struct")
+                nil [154 171])
+            ("netns_xt" type
+               (:members 
+                  ( ("tables" variable
+                       (:dereference 1
+                        :type ("list_head" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [192 234])
+                    ("notrack_deprecated_warning" variable (:type "bool") (reparse-symbol classsubparts) [236 268])
+                    ("clusterip_deprecated_warning" variable (:type "bool") (reparse-symbol classsubparts) [270 304]))                  
+                :type "struct")
+                nil [173 500]))          
+      :file "x_tables.h"
+      :pointmax 508
+      :fsize 507
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_X_TABLES_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_NETNS_NFTABLES_H_" variable (:constant-flag t) nil [75 93])
+            ("linux/list.h" include (:system-flag t) nil [95 118])
+            ("nft_af_info" type
+               (:prototype t
+                :type "struct")
+                nil [120 139])
+            ("netns_nftables" type
+               (:members 
+                  ( ("tables" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [166 190])
+                    ("commit_list" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [192 221])
+                    ("base_seq" variable (:type "unsigned int") (reparse-symbol classsubparts) [223 246])
+                    ("gencursor" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [248 263]))                  
+                :type "struct")
+                nil [141 266]))          
+      :file "nftables.h"
+      :pointmax 275
+      :fsize 274
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_NETNS_NFTABLES_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_XFRM_H" variable (:constant-flag t) nil [71 85])
+            ("linux/list.h" include (:system-flag t) nil [87 110])
+            ("linux/wait.h" include (:system-flag t) nil [111 134])
+            ("linux/workqueue.h" include (:system-flag t) nil [135 163])
+            ("linux/xfrm.h" include (:system-flag t) nil [164 187])
+            ("net/dst_ops.h" include (:system-flag t) nil [188 212])
+            ("ctl_table_header" type
+               (:prototype t
+                :type "struct")
+                nil [214 238])
+            ("xfrm_policy_hash" type
+               (:members 
+                  ( ("table" variable
+                       (:pointer 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [285 298])
+                    ("hmask" variable (:type "unsigned int") (reparse-symbol classsubparts) [300 320])
+                    ("dbits4" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [322 334])
+                    ("sbits4" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [336 348])
+                    ("dbits6" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [350 362])
+                    ("sbits6" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [364 376]))                  
+                :type "struct")
+                nil [240 379])
+            ("xfrm_policy_hthresh" type
+               (:members 
+                  ( ("work" variable (:type ("work_struct" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [411 435])
+                    ("lock" variable (:type ("seqlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [437 453])
+                    ("lbits4" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [455 467])
+                    ("rbits4" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [469 481])
+                    ("lbits6" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [483 495])
+                    ("rbits6" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [497 509]))                  
+                :type "struct")
+                nil [381 512])
+            ("netns_xfrm" type
+               (:members 
+                  ( ("state_all" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [535 562])
+                    ("state_bydst" variable
+                       (:pointer 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [888 907])
+                    ("state_bysrc" variable
+                       (:pointer 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [927 946])
+                    ("state_byspi" variable
+                       (:pointer 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [966 985])
+                    ("state_hmask" variable (:type "unsigned int") (reparse-symbol classsubparts) [987 1013])
+                    ("state_num" variable (:type "unsigned int") (reparse-symbol classsubparts) [1015 1039])
+                    ("state_hash_work" variable (:type ("work_struct" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1041 1076])
+                    ("policy_all" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1079 1107])
+                    ("policy_byidx" variable
+                       (:pointer 1
+                        :type ("hlist_head" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1109 1141])
+                    ("policy_idx_hmask" variable (:type "unsigned int") (reparse-symbol classsubparts) [1143 1174])
+                    ("policy_inexact" variable
+                       (:dereference 1
+                        :type ("hlist_head" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1176 1226])
+                    ("policy_bydst" variable
+                       (:dereference 1
+                        :type ("xfrm_policy_hash" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1228 1282])
+                    ("policy_count" variable
+                       (:dereference 1
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [1284 1332])
+                    ("policy_hash_work" variable (:type ("work_struct" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1334 1370])
+                    ("policy_hthresh" variable (:type ("xfrm_policy_hthresh" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1372 1414])
+                    ("nlsk" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1418 1437])
+                    ("nlsk_stash" variable
+                       (:pointer 1
+                        :type ("sock" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1439 1464])
+                    ("sysctl_aevent_etime" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1467 1493])
+                    ("sysctl_aevent_rseqth" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1495 1522])
+                    ("sysctl_larval_drop" variable (:type "int") (reparse-symbol classsubparts) [1524 1549])
+                    ("sysctl_acq_expires" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1551 1576])
+                    ("xfrm4_dst_ops" variable (:type ("dst_ops" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1645 1675])
+                    ("xfrm_state_lock" variable (:type ("spinlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1744 1771])
+                    ("xfrm_policy_lock" variable (:type ("spinlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1773 1801])
+                    ("xfrm_cfg_mutex" variable (:type ("mutex" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1803 1831]))                  
+                :type "struct")
+                nil [514 1834]))          
+      :file "xfrm.h"
+      :pointmax 1843
+      :fsize 1842
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax '((symbol 955 . 965) (STRUCT 948 . 954) (symbol 916 . 926) (STRUCT 909 . 915) (symbol 877 . 887) (STRUCT 870 . 876) (symbol 274 . 284) (STRUCT 267 . 273))
+      :lexical-table 
+        '(("__NETNS_XFRM_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_MPLS_H__" variable (:constant-flag t) nil [107 123])
+            ("mpls_route" type
+               (:prototype t
+                :type "struct")
+                nil [125 143])
+            ("ctl_table_header" type
+               (:prototype t
+                :type "struct")
+                nil [144 168])
+            ("netns_mpls" type
+               (:members 
+                  ( ("ip_ttl_propagate" variable (:type "int") (reparse-symbol classsubparts) [191 212])
+                    ("default_ttl" variable (:type "int") (reparse-symbol classsubparts) [214 230])
+                    ("platform_labels" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [232 255])
+                    ("platform_label" variable
+                       (:pointer 1
+                        :type ("__rcu" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [283 305])
+                    ("ctl" variable
+                       (:pointer 1
+                        :type ("ctl_table_header" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [308 337]))                  
+                :type "struct")
+                nil [170 340]))          
+      :file "mpls.h"
+      :pointmax 372
+      :fsize 371
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax '((punctuation 281 . 282) (symbol 275 . 280) (symbol 264 . 274) (STRUCT 257 . 263))
+      :lexical-table 
+        '(("__NETNS_MPLS_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__NETNS_CAN_H__" variable (:constant-flag t) nil [105 120])
+            ("linux/spinlock.h" include (:system-flag t) nil [122 149])
+            ("can_dev_rcv_lists" type
+               (:prototype t
+                :type "struct")
+                nil [151 176])
+            ("s_stats" type
+               (:prototype t
+                :type "struct")
+                nil [177 192])
+            ("s_pstats" type
+               (:prototype t
+                :type "struct")
+                nil [193 209])
+            ("netns_can" type
+               (:members 
+                  ( ("can_rx_alldev_list" variable
+                       (:pointer 1
+                        :type ("can_dev_rcv_lists" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [756 801])
+                    ("can_rcvlists_lock" variable (:type ("spinlock_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [803 832])
+                    ("can_stattimer" variable (:type ("timer_list" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [834 866])
+                    ("can_stats" variable
+                       (:pointer 1
+                        :type ("s_stats" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [901 927])
+                    ("can_pstats" variable
+                       (:pointer 1
+                        :type ("s_pstats" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [953 981])
+                    ("cgw_list" variable (:type ("hlist_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1049 1076]))                  
+                :type "struct")
+                nil [211 1079]))          
+      :file "can.h"
+      :pointmax 1110
+      :fsize 1109
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NETNS_CAN_H__")
+          )
+))
+  :file "!drive_c!Users!hjiang!Downloads!linux-4.16!include!net!netns!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

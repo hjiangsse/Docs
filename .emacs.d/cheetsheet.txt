@@ -1,0 +1,14 @@
+1.1 movement when do source navagating:
+    C-M-f forward-sexp, move forward over a balanced expression
+    C-M-b backward-sexp, move backward over a balanced expression
+    C-M-k kill-sexp, kill balanced expression forward
+    C-M-<space> mark-sexp, put mark on balanced expression
+    C-M-a beginning-of-defun, move point to beginning of a function
+    C-M-e end-of-defun, move point to end of a function
+    C-M-h mark-defun, mark a function
+
+1.2 the concepts and usage of tags
+    A tag contains information such as
+    . name of the tag
+    . location of this tag in source tree
+    . which file it belongs to

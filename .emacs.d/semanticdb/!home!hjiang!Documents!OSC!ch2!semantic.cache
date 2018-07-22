@@ -1,0 +1,39 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("bobj-m" variable (:default-value ("simple.o")) nil [1 20])
+            ("all" function nil nil [20 88])
+            ("clean" function nil nil [88 156]))          
+      :file "Makefile"
+      :pointmax 156
+      :fsize 154
+      :lastmodtime '(23306 19685 923329 329000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("linux/list.h" include (:system-flag t) nil [20 43])
+            ("linux/types.h" include (:system-flag t) nil [44 68])
+            ("birthday" type
+               (:members 
+                  ( ("day" variable (:type "int") (reparse-symbol classsubparts) [90 98])
+                    ("month" variable (:type "int") (reparse-symbol classsubparts) [101 111])
+                    ("year" variable (:type "int") (reparse-symbol classsubparts) [114 123])
+                    ("list" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [126 148]))                  
+                :type "struct")
+                nil [70 151]))          
+      :file "kernel_ds.c"
+      :pointmax 152
+      :unmatched-syntax nil))
+  :file "!home!hjiang!Documents!OSC!ch2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

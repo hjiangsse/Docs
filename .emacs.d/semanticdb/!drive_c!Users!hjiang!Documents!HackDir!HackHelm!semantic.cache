@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [50 55]))                  
+                :type "int")
+                nil [41 112]))          
+      :file "Test.c"
+      :pointmax 113
+      :fsize 120
+      :lastmodtime '(23238 7442 0 0)
+      :unmatched-syntax '((symbol 50 . 53) (punctuation 49 . 50) (symbol 41 . 48) (punctuation 40 . 41) (symbol 50 . 53) (punctuation 49 . 50) (symbol 41 . 48) (punctuation 40 . 41) (symbol 41 . 48) (punctuation 40 . 41) (symbol 41 . 48) (punctuation 40 . 41)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20]))          
+      :file "Test.cpp"
+      :pointmax 21
+      :fsize 21
+      :lastmodtime '(23238 7434 0 0)
+      :unmatched-syntax '((symbol 27 . 28) (punctuation 26 . 27) (punctuation 25 . 26) (symbol 22 . 25) (punctuation 10 . 11) (symbol 2 . 9) (punctuation 1 . 2) (symbol 2 . 9) (punctuation 1 . 2))))
+  :file "!drive_c!Users!hjiang!Documents!HackDir!HackHelm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

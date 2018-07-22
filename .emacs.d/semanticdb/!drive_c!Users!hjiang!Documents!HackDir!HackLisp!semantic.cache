@@ -1,0 +1,42 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode scheme-mode
+      :tags 
+        '( ("A" function (:arguments ("x" "y")) nil [1 141])
+            ("B" function (:arguments ("n")) nil [144 176])
+            ("iter-B" function (:arguments ("a" "b" "c" "cnt")) nil [179 398])
+            ("recur-B" function (:arguments ("n")) nil [401 537])
+            ("square" function (:arguments ("x")) nil [540 568])
+            ("fast-expt" function (:arguments ("x" "n")) nil [571 709])
+            ("double" function (:arguments ("x")) nil [983 1011])
+            ("halve" function (:arguments ("x")) nil [1014 1041])
+            ("fast-multi" function (:arguments ("a" "b")) nil [1044 1207])
+            ("iter-multi" function (:arguments ("a" "b")) nil [1210 1375])
+            ("divides?" function (:arguments ("a" "b")) nil [1415 1461])
+            ("find-divisor" function (:arguments ("n" "test-divisor")) nil [1464 1642])
+            ("smallest-divisor" function (:arguments ("n")) nil [1645 1694])
+            ("prime?" function (:arguments ("x")) nil [1697 1744])
+            ("expmod" function (:arguments ("base" "exp" "n")) nil [1767 2010])
+            ("fermat-test" function (:arguments ("n")) nil [2013 2083])
+            ("fast-prime?" function (:arguments ("n" "times")) nil [2120 2252]))          
+      :file "process.ss"
+      :pointmax 2255
+      :fsize 2351
+      :lastmodtime '(23246 65088 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode scheme-mode
+      :tags 
+        '( ("A" function (:arguments ("x" "y")) nil [1 141]))          
+      :file ".#process.ss"
+      :pointmax 142
+      :fsize 148
+      :lastmodtime '(23242 7853 0 0)
+      :unmatched-syntax '((DEFINE 1 . 7) (symbol 8 . 40) (punctuation 7 . 8) (symbol 1 . 7))))
+  :file "!drive_c!Users!hjiang!Documents!HackDir!HackLisp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

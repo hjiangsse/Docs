@@ -1,0 +1,50 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("Example2" type
+               (:members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [123 136]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [99 384]))                  
+                :type "class")
+                nil [78 386]))          
+      :file "Example2.java"
+      :pointmax 387
+      :fsize 386
+      :lastmodtime '(23320 24773 525589 103000)
+      :unmatched-syntax '(($EOI 93 . 93) ($EOI 84 . 84) (DIV 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("IfSample" type
+               (:members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [111 124]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [87 503]))                  
+                :type "class")
+                nil [66 505]))          
+      :file "IfSample.java"
+      :pointmax 506
+      :fsize 505
+      :lastmodtime '(23320 25304 846353 210000)
+      :unmatched-syntax '(($EOI 72 . 72))))
+  :file "!home!hjiang!Documents!Java!JTCR!ch2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

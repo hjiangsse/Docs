@@ -1,0 +1,41 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("sys/types.h" include (:system-flag t) nil [1 23])
+            ("sys/wait.h" include (:system-flag t) nil [24 45])
+            ("stdio.h" include (:system-flag t) nil [46 64])
+            ("unistd.h" include (:system-flag t) nil [65 84])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [113 118]))                  
+                :type "int")
+                nil [104 383]))          
+      :file "3p1.c"
+      :pointmax 384
+      :fsize 383
+      :lastmodtime '(23312 1270 235061 997000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("sys/types.h" include (:system-flag t) nil [1 23])
+            ("stdio.h" include (:system-flag t) nil [24 42])
+            ("unistd.h" include (:system-flag t) nil [43 62])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [73 78]))                  
+                :type "int")
+                nil [64 127]))          
+      :file "3p2.c"
+      :pointmax 128
+      :fsize 127
+      :lastmodtime '(23312 2092 242089 166000)
+      :unmatched-syntax nil))
+  :file "!home!hjiang!Documents!OSC!ch3!PE!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

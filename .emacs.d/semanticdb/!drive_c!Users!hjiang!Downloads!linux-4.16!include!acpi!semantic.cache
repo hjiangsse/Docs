@@ -1,0 +1,59 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__PDC_INTEL_H__" variable (:constant-flag t) nil [121 136])
+            ("ACPI_PDC_P_FFH" variable (:constant-flag t) nil [146 160])
+            ("ACPI_PDC_C_C1_HALT" variable (:constant-flag t) nil [180 198])
+            ("ACPI_PDC_T_FFH" variable (:constant-flag t) nil [217 231])
+            ("ACPI_PDC_SMP_C1PT" variable (:constant-flag t) nil [251 268])
+            ("ACPI_PDC_SMP_C2C3" variable (:constant-flag t) nil [287 304])
+            ("ACPI_PDC_SMP_P_SWCOORD" variable (:constant-flag t) nil [323 345])
+            ("ACPI_PDC_SMP_C_SWCOORD" variable (:constant-flag t) nil [364 386])
+            ("ACPI_PDC_SMP_T_SWCOORD" variable (:constant-flag t) nil [405 427])
+            ("ACPI_PDC_C_C1_FFH" variable (:constant-flag t) nil [446 463])
+            ("ACPI_PDC_C_C2C3_FFH" variable (:constant-flag t) nil [482 501])
+            ("ACPI_PDC_SMP_P_HWCOORD" variable (:constant-flag t) nil [520 542])
+            ("ACPI_PDC_EST_CAPABILITY_SMP" variable (:constant-flag t) nil [562 589])
+            ("ACPI_PDC_EST_CAPABILITY_SWSMP" variable (:constant-flag t) nil [673 702])
+            ("ACPI_PDC_C_CAPABILITY_SMP" variable (:constant-flag t) nil [852 877]))          
+      :file "pdc_intel.h"
+      :pointmax 1049
+      :fsize 1048
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("ACPI_PDC_C_C1_FFH" . ((semantic-list "(0x0100)" 465 . 473)))
+          ("ACPI_PDC_SMP_P_HWCOORD" . ((semantic-list "(0x0800)" 544 . 552)))
+          ("ACPI_PDC_C_C2C3_FFH" . ((semantic-list "(0x0200)" 503 . 511)))
+          ("__PDC_INTEL_H__")
+          ("ACPI_PDC_C_CAPABILITY_SMP" . ((semantic-list "(ACPI_PDC_SMP_C2C3  | \\
+					 ACPI_PDC_SMP_C1PT  | \\
+					 ACPI_PDC_C_C1_HALT | \\
+					 ACPI_PDC_C_C1_FFH  | \\
+					 ACPI_PDC_C_C2C3_FFH)" 878 . 1015)))
+          ("ACPI_PDC_SMP_C1PT" . ((semantic-list "(0x0008)" 270 . 278)))
+          ("ACPI_PDC_EST_CAPABILITY_SMP" . ((semantic-list "(ACPI_PDC_SMP_C1PT | \\
+					 ACPI_PDC_C_C1_HALT | \\
+					 ACPI_PDC_P_FFH)" 590 . 663)))
+          ("ACPI_PDC_T_FFH" . ((semantic-list "(0x0004)" 234 . 242)))
+          ("ACPI_PDC_P_FFH" . ((semantic-list "(0x0001)" 163 . 171)))
+          ("ACPI_PDC_SMP_C2C3" . ((semantic-list "(0x0010)" 306 . 314)))
+          ("ACPI_PDC_SMP_T_SWCOORD" . ((semantic-list "(0x0080)" 429 . 437)))
+          ("ACPI_PDC_C_C1_HALT" . ((semantic-list "(0x0002)" 200 . 208)))
+          ("ACPI_PDC_EST_CAPABILITY_SWSMP" . ((semantic-list "(ACPI_PDC_SMP_C1PT | \\
+					 ACPI_PDC_C_C1_HALT | \\
+					 ACPI_PDC_SMP_P_SWCOORD | \\
+					 ACPI_PDC_SMP_P_HWCOORD | \\
+					 ACPI_PDC_P_FFH)" 703 . 842)))
+          ("ACPI_PDC_SMP_P_SWCOORD" . ((semantic-list "(0x0020)" 347 . 355)))
+          ("ACPI_PDC_SMP_C_SWCOORD" . ((semantic-list "(0x0040)" 388 . 396)))
+          )
+))
+  :file "!drive_c!Users!hjiang!Downloads!linux-4.16!include!acpi!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

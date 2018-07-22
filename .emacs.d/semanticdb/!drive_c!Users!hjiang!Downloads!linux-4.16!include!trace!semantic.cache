@@ -1,0 +1,85 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_TRACE_SYSCALL_H" variable (:constant-flag t) nil [73 89])
+            ("linux/tracepoint.h" include (:system-flag t) nil [91 120])
+            ("linux/unistd.h" include (:system-flag t) nil [121 146])
+            ("linux/trace_events.h" include (:system-flag t) nil [147 178])
+            ("linux/thread_info.h" include (:system-flag t) nil [179 209])
+            ("asm/ptrace.h" include (:system-flag t) nil [211 234])
+            ("syscall_metadata" type
+               (:members 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [700 717])
+                    ("syscall_nr" variable (:type "int") (reparse-symbol classsubparts) [719 735])
+                    ("nb_args" variable (:type "int") (reparse-symbol classsubparts) [737 750])
+                    ("types" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [752 771])
+                    ("args" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [773 791])
+                    ("enter_fields" variable (:type ("list_head" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [793 823])
+                    ("enter_event" variable
+                       (:pointer 1
+                        :type ("trace_event_call" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [826 863])
+                    ("exit_event" variable
+                       (:pointer 1
+                        :type ("trace_event_call" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [865 901]))                  
+                :type "struct")
+                nil [673 904])
+            ("syscall_tracepoint_update" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("task_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1260 1282]))                  
+                :type "void")
+                nil [1215 1286]))          
+      :file "syscall.h"
+      :pointmax 1325
+      :fsize 1324
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_TRACE_SYSCALL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "define_trace.h"
+      :pointmax 3454
+      :fsize 3453
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!hjiang!Downloads!linux-4.16!include!trace!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

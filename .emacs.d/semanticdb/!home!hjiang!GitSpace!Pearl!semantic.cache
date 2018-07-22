@@ -1,0 +1,349 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("BitVec.h" include nil nil [1 20])
+            ("MAX_VECSIZE" variable (:constant-flag t) nil [30 41])
+            ("valid_slot" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("slotsize" variable (:type "int") (reparse-symbol arg-sub-list) [74 87]))                  
+                :type "int")
+                nil [52 88])
+            ("CreateVec" function
+               (:arguments 
+                  ( ("veclen" variable (:type "int") (reparse-symbol arg-sub-list) [105 116])
+                    ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [117 130]))                  
+                :type "void")
+                nil [90 652])
+            ("FreeVec" function
+               (:arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [667 680]))                  
+                :type "void")
+                nil [654 841])
+            ("SetBit" function
+               (:arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [855 868])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [869 877])
+                    ("val" variable (:type "int") (reparse-symbol arg-sub-list) [878 886]))                  
+                :type "void")
+                nil [843 1235])
+            ("GetBit" function
+               (:arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1248 1261])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [1262 1270]))                  
+                :type "int")
+                nil [1237 1494])
+            ("ClearVec" function
+               (:arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1510 1523]))                  
+                :type "void")
+                nil [1496 1600])
+            ("print_vec" function
+               (:arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1617 1630]))                  
+                :type "void")
+                nil [1602 1998])
+            ("valid_slot" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("slotsize" variable (:type "int") (reparse-symbol arg-sub-list) [2022 2035]))                  
+                :type "int")
+                nil [2000 2166])
+            ("CreateSlotVec" function
+               (:arguments 
+                  ( ("slotsize" variable (:type "int") (reparse-symbol arg-sub-list) [2186 2199])
+                    ("veclen" variable (:type "int") (reparse-symbol arg-sub-list) [2200 2211])
+                    ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2212 2225]))                  
+                :type "int")
+                nil [2168 2816])
+            ("ClearSlotVec" function
+               (:arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("SlotBitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2836 2853]))                  
+                :type "void")
+                nil [2818 2930])
+            ("FreeSlotVec" function
+               (:arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("SlotBitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2949 2966]))                  
+                :type "void")
+                nil [2932 3152])
+            ("IncSlot" function
+               (:arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("SlotBitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3166 3183])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [3184 3192]))                  
+                :type "int")
+                nil [3154 3714])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [3725 3734])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3735 3748]))                  
+                :type "int")
+                nil [3716 3936]))          
+      :file "BitVec.c"
+      :pointmax 3937
+      :fsize 4141
+      :lastmodtime '(23365 9306 480394 687000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAX_VECSIZE" . ((number "10000000" 42 . 50)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BIT_VEC_H_" variable (:constant-flag t) nil [29 40])
+            ("stdio.h" include (:system-flag t) nil [42 60])
+            ("stdlib.h" include (:system-flag t) nil [61 80])
+            ("string.h" include (:system-flag t) nil [81 100])
+            ("assert.h" include (:system-flag t) nil [101 120])
+            ("ELEM_LEN" variable (:constant-flag t) nil [130 138])
+            ("ELEM_BITS" variable (:constant-flag t) nil [160 169])
+            ("_BitVec" type
+               (:members 
+                  ( ("veclen" variable (:type "int") (reparse-symbol classsubparts) [218 229])
+                    ("size" variable (:type "int") (reparse-symbol classsubparts) [284 293])
+                    ("pElms" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [351 362]))                  
+                :type "struct")
+                nil [189 419])
+            ("pBitVec" type
+               (:typedef ("_BitVec" type (:type "struct") nil nil)
+                :pointer 1
+                :type "typedef")
+                nil [189 419])
+            ("BitVec" type
+               (:typedef ("_BitVec" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [189 419])
+            ("_SlotBitVec" type
+               (:members 
+                  ( ("slotsize" variable (:type "int") (reparse-symbol classsubparts) [452 465])
+                    ("veclen" variable (:type "int") (reparse-symbol classsubparts) [499 510])
+                    ("size" variable (:type "int") (reparse-symbol classsubparts) [547 556])
+                    ("pElms" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [593 604]))                  
+                :type "struct")
+                nil [421 631])
+            ("pSlotBitVec" type
+               (:typedef ("_SlotBitVec" type (:type "struct") nil nil)
+                :pointer 1
+                :type "typedef")
+                nil [421 631])
+            ("SlotBitVec" type
+               (:typedef ("_SlotBitVec" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [421 631])
+            ("CreateVec" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("veclen" variable (:type "int") (reparse-symbol arg-sub-list) [789 800])
+                    ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [801 814]))                  
+                :type "void")
+                nil [774 815])
+            ("ClearVec" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [857 870]))                  
+                :type "void")
+                nil [843 871])
+            ("FreeVec" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [929 942]))                  
+                :type "void")
+                nil [916 943])
+            ("SetBit" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1003 1016])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [1017 1025])
+                    ("val" variable (:type "int") (reparse-symbol arg-sub-list) [1026 1034]))                  
+                :type "void")
+                nil [991 1035])
+            ("GetBit" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1068 1081])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [1082 1090]))                  
+                :type "int")
+                nil [1057 1091])
+            ("print_vec" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1128 1141]))                  
+                :type "void")
+                nil [1113 1142])
+            ("CreateSlotVec" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("slotsize" variable (:type "int") (reparse-symbol arg-sub-list) [1306 1319])
+                    ("veclen" variable (:type "int") (reparse-symbol arg-sub-list) [1320 1331])
+                    ("pVec" variable
+                       (:pointer 1
+                        :type ("BitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1332 1345]))                  
+                :type "int")
+                nil [1288 1346])
+            ("ClearSlotVec" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("SlotBitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1365 1382]))                  
+                :type "void")
+                nil [1347 1383])
+            ("FreeSlotVec" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("SlotBitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1401 1418]))                  
+                :type "void")
+                nil [1384 1419])
+            ("IncSlot" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pVec" variable
+                       (:pointer 1
+                        :type ("SlotBitVec" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1432 1449])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [1450 1458]))                  
+                :type "int")
+                nil [1420 1459]))          
+      :file "BitVec.h"
+      :pointmax 1539
+      :fsize 1587
+      :lastmodtime '(23365 8402 861194 893000)
+      :unmatched-syntax '((punctuation 1529 . 1530) (punctuation 1528 . 1529) (punctuation 1527 . 1528) (punctuation 1526 . 1527) (punctuation 1525 . 1526) (punctuation 1524 . 1525) (punctuation 1523 . 1524) (punctuation 1522 . 1523) (punctuation 1521 . 1522) (punctuation 1520 . 1521) (punctuation 1519 . 1520) (punctuation 1518 . 1519) (punctuation 1517 . 1518) (punctuation 1516 . 1517) (punctuation 1515 . 1516) (punctuation 1514 . 1515) (punctuation 1513 . 1514) (punctuation 1512 . 1513) (punctuation 1511 . 1512) (punctuation 1510 . 1511) (punctuation 1509 . 1510) (punctuation 1508 . 1509) (punctuation 1507 . 1508) (punctuation 1506 . 1507) (punctuation 1505 . 1506) (punctuation 1504 . 1505) (punctuation 1503 . 1504) (punctuation 1502 . 1503) (punctuation 1501 . 1502) (punctuation 1500 . 1501) (punctuation 1499 . 1500) (punctuation 1498 . 1499) (punctuation 1497 . 1498) (punctuation 1496 . 1497) (punctuation 1495 . 1496) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (punctuation 1492 . 1493) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1527 . 1528) (punctuation 1526 . 1527) (punctuation 1525 . 1526) (punctuation 1524 . 1525) (punctuation 1523 . 1524) (punctuation 1522 . 1523) (punctuation 1521 . 1522) (punctuation 1520 . 1521) (punctuation 1519 . 1520) (punctuation 1518 . 1519) (punctuation 1517 . 1518) (punctuation 1516 . 1517) (punctuation 1515 . 1516) (punctuation 1514 . 1515) (punctuation 1513 . 1514) (punctuation 1512 . 1513) (punctuation 1511 . 1512) (punctuation 1510 . 1511) (punctuation 1509 . 1510) (punctuation 1508 . 1509) (punctuation 1507 . 1508) (punctuation 1506 . 1507) (punctuation 1505 . 1506) (punctuation 1504 . 1505) (punctuation 1503 . 1504) (punctuation 1502 . 1503) (punctuation 1501 . 1502) (punctuation 1500 . 1501) (punctuation 1499 . 1500) (punctuation 1498 . 1499) (punctuation 1497 . 1498) (punctuation 1496 . 1497) (punctuation 1495 . 1496) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (punctuation 1492 . 1493) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1523 . 1524) (punctuation 1522 . 1523) (punctuation 1521 . 1522) (punctuation 1520 . 1521) (punctuation 1519 . 1520) (punctuation 1518 . 1519) (punctuation 1517 . 1518) (punctuation 1516 . 1517) (punctuation 1515 . 1516) (punctuation 1514 . 1515) (punctuation 1513 . 1514) (punctuation 1512 . 1513) (punctuation 1511 . 1512) (punctuation 1510 . 1511) (punctuation 1509 . 1510) (punctuation 1508 . 1509) (punctuation 1507 . 1508) (punctuation 1506 . 1507) (punctuation 1505 . 1506) (punctuation 1504 . 1505) (punctuation 1503 . 1504) (punctuation 1502 . 1503) (punctuation 1501 . 1502) (punctuation 1500 . 1501) (punctuation 1499 . 1500) (punctuation 1498 . 1499) (punctuation 1497 . 1498) (punctuation 1496 . 1497) (punctuation 1495 . 1496) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (punctuation 1492 . 1493) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1506 . 1507) (punctuation 1505 . 1506) (punctuation 1504 . 1505) (punctuation 1503 . 1504) (punctuation 1502 . 1503) (punctuation 1501 . 1502) (punctuation 1500 . 1501) (punctuation 1499 . 1500) (punctuation 1498 . 1499) (punctuation 1497 . 1498) (punctuation 1496 . 1497) (punctuation 1495 . 1496) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (punctuation 1492 . 1493) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1504 . 1505) (punctuation 1503 . 1504) (punctuation 1502 . 1503) (punctuation 1501 . 1502) (punctuation 1500 . 1501) (punctuation 1499 . 1500) (punctuation 1498 . 1499) (punctuation 1497 . 1498) (punctuation 1496 . 1497) (punctuation 1495 . 1496) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (punctuation 1492 . 1493) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1436 . 1437) (punctuation 1435 . 1436) (punctuation 1500 . 1501) (punctuation 1499 . 1500) (punctuation 1498 . 1499) (punctuation 1497 . 1498) (punctuation 1496 . 1497) (punctuation 1495 . 1496) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (punctuation 1492 . 1493) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1436 . 1437) (punctuation 1435 . 1436) (punctuation 1434 . 1435) (punctuation 1433 . 1434) (punctuation 1432 . 1433) (punctuation 1431 . 1432) (punctuation 1498 . 1499) (punctuation 1497 . 1498) (punctuation 1496 . 1497) (punctuation 1495 . 1496) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (punctuation 1492 . 1493) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1436 . 1437) (punctuation 1435 . 1436) (punctuation 1434 . 1435) (punctuation 1433 . 1434) (punctuation 1432 . 1433) (punctuation 1431 . 1432) (punctuation 1430 . 1431) (punctuation 1429 . 1430) (punctuation 1494 . 1495) (punctuation 1493 . 1494) (punctuation 1492 . 1493) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1436 . 1437) (punctuation 1435 . 1436) (punctuation 1434 . 1435) (punctuation 1433 . 1434) (punctuation 1432 . 1433) (punctuation 1431 . 1432) (punctuation 1430 . 1431) (punctuation 1429 . 1430) (punctuation 1428 . 1429) (punctuation 1427 . 1428) (punctuation 1426 . 1427) (punctuation 1425 . 1426) (symbol 503 . 509) (INT 499 . 502) (symbol 503 . 509) (INT 499 . 502) (punctuation 1491 . 1492) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1436 . 1437) (punctuation 1435 . 1436) (punctuation 1434 . 1435) (punctuation 1433 . 1434) (punctuation 1432 . 1433) (punctuation 1431 . 1432) (punctuation 1430 . 1431) (punctuation 1429 . 1430) (punctuation 1428 . 1429) (punctuation 1427 . 1428) (punctuation 1426 . 1427) (punctuation 1425 . 1426) (punctuation 1424 . 1425) (punctuation 1423 . 1424) (punctuation 1422 . 1423) (symbol 503 . 506) (INT 499 . 502) (symbol 503 . 506) (INT 499 . 502) (punctuation 1489 . 1490) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (punctuation 1486 . 1487) (punctuation 1485 . 1486) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1436 . 1437) (punctuation 1435 . 1436) (punctuation 1434 . 1435) (punctuation 1433 . 1434) (punctuation 1432 . 1433) (punctuation 1431 . 1432) (punctuation 1430 . 1431) (punctuation 1429 . 1430) (punctuation 1428 . 1429) (punctuation 1427 . 1428) (punctuation 1426 . 1427) (punctuation 1425 . 1426) (punctuation 1424 . 1425) (punctuation 1423 . 1424) (punctuation 1422 . 1423) (punctuation 1421 . 1422) (punctuation 1420 . 1421) (symbol 503 . 504) (INT 499 . 502) (symbol 503 . 504) (INT 499 . 502) (punctuation 1484 . 1485) (punctuation 1483 . 1484) (punctuation 1482 . 1483) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1436 . 1437) (punctuation 1435 . 1436) (punctuation 1434 . 1435) (punctuation 1433 . 1434) (punctuation 1432 . 1433) (punctuation 1431 . 1432) (punctuation 1430 . 1431) (punctuation 1429 . 1430) (punctuation 1428 . 1429) (punctuation 1427 . 1428) (punctuation 1426 . 1427) (punctuation 1425 . 1426) (punctuation 1424 . 1425) (punctuation 1423 . 1424) (punctuation 1422 . 1423) (punctuation 1421 . 1422) (punctuation 1420 . 1421) (punctuation 1419 . 1420) (punctuation 1418 . 1419) (punctuation 1417 . 1418) (punctuation 1416 . 1417) (punctuation 1415 . 1416) (punctuation 1481 . 1482) (punctuation 1480 . 1481) (punctuation 1479 . 1480) (punctuation 1478 . 1479) (punctuation 1477 . 1478) (punctuation 1476 . 1477) (punctuation 1475 . 1476) (punctuation 1474 . 1475) (punctuation 1473 . 1474) (punctuation 1472 . 1473) (punctuation 1471 . 1472) (punctuation 1470 . 1471) (punctuation 1469 . 1470) (punctuation 1468 . 1469) (punctuation 1467 . 1468) (punctuation 1466 . 1467) (punctuation 1465 . 1466) (punctuation 1464 . 1465) (punctuation 1463 . 1464) (punctuation 1462 . 1463) (punctuation 1461 . 1462) (punctuation 1460 . 1461) (punctuation 1459 . 1460) (punctuation 1458 . 1459) (punctuation 1457 . 1458) (punctuation 1456 . 1457) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (punctuation 1453 . 1454) (punctuation 1452 . 1453) (punctuation 1451 . 1452) (punctuation 1450 . 1451) (punctuation 1449 . 1450) (punctuation 1448 . 1449) (punctuation 1447 . 1448) (punctuation 1446 . 1447) (punctuation 1445 . 1446) (punctuation 1444 . 1445) (punctuation 1443 . 1444) (punctuation 1442 . 1443) (punctuation 1441 . 1442) (punctuation 1440 . 1441) (punctuation 1439 . 1440) (punctuation 1438 . 1439) (punctuation 1437 . 1438) (punctuation 1436 . 1437) (punctuation 1435 . 1436) (punctuation 1434 . 1435) (punctuation 1433 . 1434) (punctuation 1432 . 1433) (punctuation 1431 . 1432) (punctuation 1430 . 1431) (punctuation 1429 . 1430) (punctuation 1428 . 1429) (punctuation 1427 . 1428) (punctuation 1426 . 1427) (punctuation 1425 . 1426) (punctuation 1424 . 1425) (punctuation 1423 . 1424) (punctuation 1422 . 1423) (punctuation 1421 . 1422) (punctuation 1420 . 1421) (punctuation 1419 . 1420) (punctuation 1418 . 1419) (punctuation 1417 . 1418) (punctuation 1416 . 1417) (punctuation 1415 . 1416) (punctuation 1414 . 1415) (punctuation 1413 . 1414) (punctuation 1412 . 1413))
+      :lexical-table 
+        '(("ELEM_LEN" . ((SIZEOF "sizeof" 140 . 146) (semantic-list "(int)" 146 . 151)))
+          ("ELEM_BITS" . ((semantic-list "(sizeof(int) * 8)" 170 . 187)))
+          ("_BIT_VEC_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("BitVec.h" include nil nil [1 20])
+            ("MAX_VECSIZE" variable (:constant-flag t) nil [30 41])
+            ("MAX_VECSIZE" variable (:constant-flag t) nil [30 41])
+            ("MAX_VECSIZE" variable (:constant-flag t) nil [30 41])
+            ("MAX_NUM" variable (:constant-flag t) nil [58 65])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [233 242])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [243 256]))                  
+                :type "int")
+                nil [224 1721]))          
+      :file "TwoPass.c"
+      :pointmax 1722
+      :fsize 1721
+      :lastmodtime '(23364 48288 660382 92000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAX_VECSIZE" . ((number "8000000" 42 . 49)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("CC" variable (:default-value ("gcc")) nil [66 73])
+            ("CFLAGS" variable (:default-value ("-c" "-Wall")) nil [124 140])
+            ("all" function (:arguments ("TwoPass")) nil [141 154])
+            ("BitVec.o" function (:arguments ("BitVec.c")) nil [155 209])
+            ("TwoPass.o" function (:arguments ("TwoPass.c")) nil [210 266])
+            ("TwoPass" function (:arguments ("TwoPass.o" "BitVec.o")) nil [268 332])
+            ("clean" function nil nil [334 353]))          
+      :file "Makefile"
+      :pointmax 353
+      :fsize 352
+      :lastmodtime '(23364 48637 987596 419000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("random" include nil nil [21 41])
+            ("getopt" include nil nil [42 60])
+            ("sys" include nil nil [42 60])
+            ("gen_k_random_less_n" function (:arguments 
+              ( ("k" variable nil (reparse-symbol function_parameters) [125 126])
+                ("n" variable nil (reparse-symbol function_parameters) [129 130]))              ) nil [101 409])
+            ("helper" function nil nil [435 578])
+            ("main" function (:arguments 
+              ( ("argv" variable nil (reparse-symbol function_parameters) [588 592]))              ) nil [579 1191])
+            ("if" code nil nil [1192 1243]))          
+      :file "genrandom"
+      :pointmax 1243
+      :fsize 1242
+      :lastmodtime '(23364 50110 443948 723000)
+      :unmatched-syntax nil))
+  :file "!home!hjiang!GitSpace!Pearl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

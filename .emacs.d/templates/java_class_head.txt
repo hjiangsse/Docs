@@ -1,0 +1,13 @@
+/**
+   [Class description.  The first sentence should be a meaningful summary of the class since it
+   will be displayed as the class summary on the Javadoc package page.]
+   
+   [Other notes, including guaranteed invariants, usage instructions and/or examples, reminders
+   about desired improvements, etc.]
+   
+   @author <A HREF="mailto:[Email address]">[Name]</A>
+   @version $Revision: 1.1.1.1 $ $Date: 2000/08/09 15:15:25 $
+   @see [String]
+   @see [URL]
+   @see [Class name#method name]
+**/

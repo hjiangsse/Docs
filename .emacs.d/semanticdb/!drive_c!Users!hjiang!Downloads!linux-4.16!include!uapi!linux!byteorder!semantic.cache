@@ -1,0 +1,221 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_UAPI_LINUX_BYTEORDER_LITTLE_ENDIAN_H" variable (:constant-flag t) nil [118 155])
+            ("__LITTLE_ENDIAN" variable (:constant-flag t) nil [189 204])
+            ("__LITTLE_ENDIAN_BITFIELD" variable (:constant-flag t) nil [258 282])
+            ("linux/types.h" include (:system-flag t) nil [291 315])
+            ("linux/swab.h" include (:system-flag t) nil [316 339])
+            ("__constant_htonl" variable (:constant-flag t) nil [349 365])
+            ("__constant_ntohl" variable (:constant-flag t) nil [419 435])
+            ("__constant_htons" variable (:constant-flag t) nil [487 503])
+            ("__constant_ntohs" variable (:constant-flag t) nil [557 573])
+            ("__constant_cpu_to_le64" variable (:constant-flag t) nil [625 647])
+            ("__constant_le64_to_cpu" variable (:constant-flag t) nil [688 710])
+            ("__constant_cpu_to_le32" variable (:constant-flag t) nil [751 773])
+            ("__constant_le32_to_cpu" variable (:constant-flag t) nil [814 836])
+            ("__constant_cpu_to_le16" variable (:constant-flag t) nil [877 899])
+            ("__constant_le16_to_cpu" variable (:constant-flag t) nil [940 962])
+            ("__constant_cpu_to_be64" variable (:constant-flag t) nil [1003 1025])
+            ("__constant_be64_to_cpu" variable (:constant-flag t) nil [1079 1101])
+            ("__constant_cpu_to_be32" variable (:constant-flag t) nil [1160 1182])
+            ("__constant_be32_to_cpu" variable (:constant-flag t) nil [1236 1258])
+            ("__constant_cpu_to_be16" variable (:constant-flag t) nil [1317 1339])
+            ("__constant_be16_to_cpu" variable (:constant-flag t) nil [1393 1415])
+            ("__cpu_to_le64" variable (:constant-flag t) nil [1474 1487])
+            ("__le64_to_cpu" variable (:constant-flag t) nil [1528 1541])
+            ("__cpu_to_le32" variable (:constant-flag t) nil [1582 1595])
+            ("__le32_to_cpu" variable (:constant-flag t) nil [1636 1649])
+            ("__cpu_to_le16" variable (:constant-flag t) nil [1690 1703])
+            ("__le16_to_cpu" variable (:constant-flag t) nil [1744 1757])
+            ("__cpu_to_be64" variable (:constant-flag t) nil [1798 1811])
+            ("__be64_to_cpu" variable (:constant-flag t) nil [1855 1868])
+            ("__cpu_to_be32" variable (:constant-flag t) nil [1917 1930])
+            ("__be32_to_cpu" variable (:constant-flag t) nil [1974 1987])
+            ("__cpu_to_be16" variable (:constant-flag t) nil [2036 2049])
+            ("__be16_to_cpu" variable (:constant-flag t) nil [2093 2106])
+            ("__cpu_to_le64p" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__u64" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2193 2208]))                  
+                :type ("__le64" type (:type "class") nil nil))
+                nil [2171 2240])
+            ("__le64_to_cpup" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__le64" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2285 2301]))                  
+                :type ("__u64" type (:type "class") nil nil))
+                nil [2264 2332])
+            ("__cpu_to_le32p" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__u32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2378 2393]))                  
+                :type ("__le32" type (:type "class") nil nil))
+                nil [2356 2425])
+            ("__le32_to_cpup" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__le32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2470 2486]))                  
+                :type ("__u32" type (:type "class") nil nil))
+                nil [2449 2517])
+            ("__cpu_to_le16p" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__u16" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2563 2578]))                  
+                :type ("__le16" type (:type "class") nil nil))
+                nil [2541 2610])
+            ("__le16_to_cpup" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__le16" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2655 2671]))                  
+                :type ("__u16" type (:type "class") nil nil))
+                nil [2634 2702])
+            ("__cpu_to_be64p" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__u64" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2748 2763]))                  
+                :type ("__be64" type (:type "class") nil nil))
+                nil [2726 2805])
+            ("__be64_to_cpup" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__be64" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2850 2866]))                  
+                :type ("__u64" type (:type "class") nil nil))
+                nil [2829 2901])
+            ("__cpu_to_be32p" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__u32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2947 2962]))                  
+                :type ("__be32" type (:type "class") nil nil))
+                nil [2925 3004])
+            ("__be32_to_cpup" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__be32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3049 3065]))                  
+                :type ("__u32" type (:type "class") nil nil))
+                nil [3028 3100])
+            ("__cpu_to_be16p" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__u16" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3146 3161]))                  
+                :type ("__be16" type (:type "class") nil nil))
+                nil [3124 3203])
+            ("__be16_to_cpup" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__be16" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3248 3264]))                  
+                :type ("__u16" type (:type "class") nil nil))
+                nil [3227 3299])
+            ("__cpu_to_le64s" variable (:constant-flag t) nil [3308 3322])
+            ("__le64_to_cpus" variable (:constant-flag t) nil [3362 3376])
+            ("__cpu_to_le32s" variable (:constant-flag t) nil [3416 3430])
+            ("__le32_to_cpus" variable (:constant-flag t) nil [3470 3484])
+            ("__cpu_to_le16s" variable (:constant-flag t) nil [3524 3538])
+            ("__le16_to_cpus" variable (:constant-flag t) nil [3578 3592])
+            ("__cpu_to_be64s" variable (:constant-flag t) nil [3632 3646])
+            ("__be64_to_cpus" variable (:constant-flag t) nil [3673 3687])
+            ("__cpu_to_be32s" variable (:constant-flag t) nil [3714 3728])
+            ("__be32_to_cpus" variable (:constant-flag t) nil [3755 3769])
+            ("__cpu_to_be16s" variable (:constant-flag t) nil [3796 3810])
+            ("__be16_to_cpus" variable (:constant-flag t) nil [3837 3851]))          
+      :file "little_endian.h"
+      :pointmax 3923
+      :fsize 3922
+      :lastmodtime '(23233 19739 0 0)
+      :unmatched-syntax '((symbol 3211 . 3226) (STATIC 3204 . 3210) (symbol 3108 . 3123) (STATIC 3101 . 3107) (symbol 3012 . 3027) (STATIC 3005 . 3011) (symbol 2909 . 2924) (STATIC 2902 . 2908) (symbol 2813 . 2828) (STATIC 2806 . 2812) (symbol 2710 . 2725) (STATIC 2703 . 2709) (symbol 2618 . 2633) (STATIC 2611 . 2617) (symbol 2525 . 2540) (STATIC 2518 . 2524) (symbol 2433 . 2448) (STATIC 2426 . 2432) (symbol 2340 . 2355) (STATIC 2333 . 2339) (symbol 2248 . 2263) (STATIC 2241 . 2247) (symbol 2155 . 2170) (STATIC 2148 . 2154))
+      :lexical-table 
+        '(("__cpu_to_le32" (spp-arg-list ("x") 1595 . 1598) . ((semantic-list "((__force __le32)(__u32)(x))" 1599 . 1627)))
+          ("__le64_to_cpu" (spp-arg-list ("x") 1541 . 1544) . ((semantic-list "((__force __u64)(__le64)(x))" 1545 . 1573)))
+          ("__le16_to_cpu" (spp-arg-list ("x") 1757 . 1760) . ((semantic-list "((__force __u16)(__le16)(x))" 1761 . 1789)))
+          ("__cpu_to_be64" (spp-arg-list ("x") 1811 . 1814) . ((semantic-list "((__force __be64)__swab64((x)))" 1815 . 1846)))
+          ("__cpu_to_be16" (spp-arg-list ("x") 2049 . 2052) . ((semantic-list "((__force __be16)__swab16((x)))" 2053 . 2084)))
+          ("__le64_to_cpus" (spp-arg-list ("x") 3376 . 3379) . 
+              ((DO "do" 3380 . 3382) (semantic-list "{ (void)(x); }" 3383 . 3397) (WHILE "while" 3398 . 3403) (semantic-list "(0)" 3404 . 3407)))
+          ("__le16_to_cpus" (spp-arg-list ("x") 3592 . 3595) . 
+              ((DO "do" 3596 . 3598) (semantic-list "{ (void)(x); }" 3599 . 3613) (WHILE "while" 3614 . 3619) (semantic-list "(0)" 3620 . 3623)))
+          ("__cpu_to_be64s" (spp-arg-list ("x") 3646 . 3649) . ((symbol "__swab64s" 3650 . 3659) (semantic-list "((x))" 3659 . 3664)))
+          ("__cpu_to_be16s" (spp-arg-list ("x") 3810 . 3813) . ((symbol "__swab16s" 3814 . 3823) (semantic-list "((x))" 3823 . 3828)))
+          ("__LITTLE_ENDIAN_BITFIELD")
+          ("__constant_be64_to_cpu" (spp-arg-list ("x") 1101 . 1104) . ((symbol "___constant_swab64" 1105 . 1123) (semantic-list "((__force __u64)(__be64)(x))" 1123 . 1151)))
+          ("__constant_be16_to_cpu" (spp-arg-list ("x") 1415 . 1418) . ((symbol "___constant_swab16" 1419 . 1437) (semantic-list "((__force __u16)(__be16)(x))" 1437 . 1465)))
+          ("__be64_to_cpus" (spp-arg-list ("x") 3687 . 3690) . ((symbol "__swab64s" 3691 . 3700) (semantic-list "((x))" 3700 . 3705)))
+          ("__be16_to_cpus" (spp-arg-list ("x") 3851 . 3854) . ((symbol "__swab16s" 3855 . 3864) (semantic-list "((x))" 3864 . 3869)))
+          ("__constant_cpu_to_le64" (spp-arg-list ("x") 647 . 650) . ((semantic-list "((__force __le64)(__u64)(x))" 651 . 679)))
+          ("__constant_cpu_to_le16" (spp-arg-list ("x") 899 . 902) . ((semantic-list "((__force __le16)(__u16)(x))" 903 . 931)))
+          ("__cpu_to_be32" (spp-arg-list ("x") 1930 . 1933) . ((semantic-list "((__force __be32)__swab32((x)))" 1934 . 1965)))
+          ("__be32_to_cpu" (spp-arg-list ("x") 1987 . 1990) . ((symbol "__swab32" 1991 . 1999) (semantic-list "((__force __u32)(__be32)(x))" 1999 . 2027)))
+          ("__LITTLE_ENDIAN" . ((number "1234" 205 . 209)))
+          ("__constant_htons" (spp-arg-list ("x") 503 . 506) . ((semantic-list "((__force __be16)___constant_swab16((x)))" 507 . 548)))
+          ("__constant_ntohs" (spp-arg-list ("x") 573 . 576) . ((symbol "___constant_swab16" 577 . 595) (semantic-list "((__force __be16)(x))" 595 . 616)))
+          ("__constant_cpu_to_le32" (spp-arg-list ("x") 773 . 776) . ((semantic-list "((__force __le32)(__u32)(x))" 777 . 805)))
+          ("__cpu_to_le64s" (spp-arg-list ("x") 3322 . 3325) . 
+              ((DO "do" 3326 . 3328) (semantic-list "{ (void)(x); }" 3329 . 3343) (WHILE "while" 3344 . 3349) (semantic-list "(0)" 3350 . 3353)))
+          ("__cpu_to_le16s" (spp-arg-list ("x") 3538 . 3541) . 
+              ((DO "do" 3542 . 3544) (semantic-list "{ (void)(x); }" 3545 . 3559) (WHILE "while" 3560 . 3565) (semantic-list "(0)" 3566 . 3569)))
+          ("__constant_le64_to_cpu" (spp-arg-list ("x") 710 . 713) . ((semantic-list "((__force __u64)(__le64)(x))" 714 . 742)))
+          ("__constant_le16_to_cpu" (spp-arg-list ("x") 962 . 965) . ((semantic-list "((__force __u16)(__le16)(x))" 966 . 994)))
+          ("__constant_cpu_to_be64" (spp-arg-list ("x") 1025 . 1028) . ((semantic-list "((__force __be64)___constant_swab64((x)))" 1029 . 1070)))
+          ("__constant_cpu_to_be16" (spp-arg-list ("x") 1339 . 1342) . ((semantic-list "((__force __be16)___constant_swab16((x)))" 1343 . 1384)))
+          ("__le32_to_cpus" (spp-arg-list ("x") 3484 . 3487) . 
+              ((DO "do" 3488 . 3490) (semantic-list "{ (void)(x); }" 3491 . 3505) (WHILE "while" 3506 . 3511) (semantic-list "(0)" 3512 . 3515)))
+          ("_UAPI_LINUX_BYTEORDER_LITTLE_ENDIAN_H")
+          ("__le32_to_cpu" (spp-arg-list ("x") 1649 . 1652) . ((semantic-list "((__force __u32)(__le32)(x))" 1653 . 1681)))
+          ("__cpu_to_be32s" (spp-arg-list ("x") 3728 . 3731) . ((symbol "__swab32s" 3732 . 3741) (semantic-list "((x))" 3741 . 3746)))
+          ("__be32_to_cpus" (spp-arg-list ("x") 3769 . 3772) . ((symbol "__swab32s" 3773 . 3782) (semantic-list "((x))" 3782 . 3787)))
+          ("__constant_cpu_to_be32" (spp-arg-list ("x") 1182 . 1185) . ((semantic-list "((__force __be32)___constant_swab32((x)))" 1186 . 1227)))
+          ("__constant_be32_to_cpu" (spp-arg-list ("x") 1258 . 1261) . ((symbol "___constant_swab32" 1262 . 1280) (semantic-list "((__force __u32)(__be32)(x))" 1280 . 1308)))
+          ("__be64_to_cpu" (spp-arg-list ("x") 1868 . 1871) . ((symbol "__swab64" 1872 . 1880) (semantic-list "((__force __u64)(__be64)(x))" 1880 . 1908)))
+          ("__be16_to_cpu" (spp-arg-list ("x") 2106 . 2109) . ((symbol "__swab16" 2110 . 2118) (semantic-list "((__force __u16)(__be16)(x))" 2118 . 2146)))
+          ("__constant_htonl" (spp-arg-list ("x") 365 . 368) . ((semantic-list "((__force __be32)___constant_swab32((x)))" 369 . 410)))
+          ("__constant_ntohl" (spp-arg-list ("x") 435 . 438) . ((symbol "___constant_swab32" 439 . 457) (semantic-list "((__force __be32)(x))" 457 . 478)))
+          ("__cpu_to_le64" (spp-arg-list ("x") 1487 . 1490) . ((semantic-list "((__force __le64)(__u64)(x))" 1491 . 1519)))
+          ("__cpu_to_le16" (spp-arg-list ("x") 1703 . 1706) . ((semantic-list "((__force __le16)(__u16)(x))" 1707 . 1735)))
+          ("__cpu_to_le32s" (spp-arg-list ("x") 3430 . 3433) . 
+              ((DO "do" 3434 . 3436) (semantic-list "{ (void)(x); }" 3437 . 3451) (WHILE "while" 3452 . 3457) (semantic-list "(0)" 3458 . 3461)))
+          ("__constant_le32_to_cpu" (spp-arg-list ("x") 836 . 839) . ((semantic-list "((__force __u32)(__le32)(x))" 840 . 868)))
+          )
+))
+  :file "!drive_c!Users!hjiang!Downloads!linux-4.16!include!uapi!linux!byteorder!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

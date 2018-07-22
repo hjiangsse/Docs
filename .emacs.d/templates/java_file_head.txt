@@ -1,0 +1,12 @@
+// File:         [File name]
+// Created:      [yyyy/mm/dd creation date]
+// Last Changed: $Date: 2000/08/09 15:15:25 $
+// Author:       <A HREF="mailto:[Email address]">[Name]</A>
+//
+// This code is copyright (c) 2000 gnu
+// 
+// History:
+//  $Log: javaCodingStd.html,v $
+//  Revision 1.1.1.1  2000/08/09 15:15:25  adamkmy
+//  initial impound
+//

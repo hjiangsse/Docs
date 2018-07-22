@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("main" function (:type "int") nil [1 37]))          
+      :file "fileA.c"
+      :pointmax 38
+      :fsize 37
+      :lastmodtime '(23241 64181 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("func1" function (:type "int") nil [1 12]))          
+      :file "fileB.c"
+      :pointmax 13
+      :fsize 12
+      :lastmodtime '(23238 8704 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!hjiang!Documents!HackDir!ROOT!DIR1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
