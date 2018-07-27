@@ -1,1 +1,0 @@
-("~/GitSpace/mastering-emacs-in-one-year-guide/" "~/GitSpace/Notes/" "~/GitSpace/MyDocument/" "~/GitSpace/Pearl/" "~/GitSpace/Emacs/" "~/playgroud/linux/linux-stable/" "/usr/src/linux-headers-4.13.0-43/" "~/Documents/OSC/ch2/" "~/.emacs.d/" "~/Documents/HackDir/ROOT/" "~/Downloads/linux-4.16/")
